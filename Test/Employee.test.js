@@ -28,18 +28,18 @@ test("can get name from getName()", () => {
 
 });
 
-test("can get id from getID()", () => {
-    expect(Employee1.getID).toEqual(3);
+test("can get id from getId()", () => {
+    expect(Employee1.getId()).toEqual(3);
 
 });
 
-test("getRole() need to return \"Employee\"", () => {
+test("can get email from getEmail()", () => {
+    expect(Employee1.getEmail()).toEqual('john793a@yahoo.com');
+
+});
+
+test("getRole() needs to return \"Employee\"", () => {
     expect(Employee1.getRole()).toEqual("Employee");
-
-});
-
-test("can produce instance of Employee", () => {
-    expect(Employee1 instanceof Employee).toEqual(true);
 
 });
 
