@@ -31,7 +31,7 @@ const managerQuestions = [
     },
     {
         type: "input",
-        name: "managerOffice",
+        name: "officeNum",
         message: "What is the team manager's office number?",
     },
     {
@@ -150,7 +150,7 @@ function init() {
     inquirer 
         .prompt(managerQuestions)
         .then(answers => {
-            const manager = new Manager(answers.managerName, answers.managerId, answers.managerEmail, answers.officeNumber);
+            const manager = new Manager(answers.managerName, answers.managerId, answers.managerEmail, answers.officeNum);
             employeeAnswersArr.push(manager);
             if (answers.teamMember === "Engineer") {
                 console.log("engineer was the answer");
