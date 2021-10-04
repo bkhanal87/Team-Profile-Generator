@@ -1,14 +1,14 @@
 const Engineer = require("../lib/Engineer");
 
-const Engineer1 = new Engineer('John', 3, 'john793a@yahoo.com', 'John-gitHub');
+const Engineer1 = new Engineer('John', 3, 'john793a@yahoo.com', 'john-Github');
 
-test("can set GitHub username from the constructor argument", () => {
-    expect(Engineer1.github).toEqual('John-gitHub');
+test("can set Github username from the constructor", () => {
+    expect(Engineer1.Github).toEqual('john-Github');
 
 });
 
-test("can get gitHub username from getGithub()", () => {
-    expect(Engineer1.getGithub()).toEqual('john-gitHub');
+test("can get Github username from getGithub()", () => {
+    expect(Engineer1.getGithub()).toEqual('john-Github');
 
 });
 

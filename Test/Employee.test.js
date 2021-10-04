@@ -24,12 +24,12 @@ test("can set email from the constructor argument", () => {
 });
 
 test("can get name from getName()", () => {
-    expect(Employee1.getName()).toEqual('john');
+    expect(Employee1.getName()).toEqual('John');
 
 });
 
 test("can get id from getId()", () => {
-    expect(Employee1.getId()).toEqual(3);
+    expect(Employee1.getID()).toEqual(3);
 
 });
 

@@ -78,10 +78,8 @@ const engineerQuestions = [
         ],
     },
 ];
-  
-// Basic information for Intern
 
- const internQuestions = [
+const internQuestions = [
      {
        type: "input",
        name: "internName",
