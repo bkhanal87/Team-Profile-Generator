@@ -1,16 +1,16 @@
-License
+[![license](https://img.shields.io/badge/license-MIT-orange)](https://shields.io)  
 
 # Team-Profile-Generator
 
-Table of contents
-Description
-Installation
-Usage
-Collaborators
-License
-Badges
-How to Contribute to the Project
-Tests
+## Table of contents
+[Description](#description)
+[Installation](#installation)
+[Technologies](#technologies)
+[Usage](#usage)
+[Collaborators](collaborator)
+[Badges](badges)
+[How to Contribute to the Project]
+[Tests]
 
 Link to the video file:
 
