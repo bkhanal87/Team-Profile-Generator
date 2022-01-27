@@ -1,4 +1,16 @@
+License
+
 # Team-Profile-Generator
+
+Table of contents
+Description
+Installation
+Usage
+Collaborators
+License
+Badges
+How to Contribute to the Project
+Tests
 
 Link to the video file:
 
