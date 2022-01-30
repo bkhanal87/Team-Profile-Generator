@@ -5,28 +5,21 @@
 ## Table of contents
 [Description](#description)
 [Installation](#installation)
-[Technologies](#technologies)
 [Usage](#usage)
 [Collaborators](collaborator)
-[Badges](badges)
 [How to Contribute to the Project]
 [Tests]
 
-Link to the video file:
+## Project Description 
 
-https://watch.screencastify.com/v/MXXwXvx42viaQOumLWzE
-
-Description: In this project, I built a Node.js command line application that took in information about employees on a software engineering team, then generated an HTML webpage that displayed summaries for each person. I have provided the link to a walkthrough video that demonstrates the functionality of my project and all of the tests passing. 
-
-
-User Story:
-
+## User Story ##
 AS A manager
 I WANT to generate a webpage that displays my team's basic info
 SO THAT I have quick access to their emails and GitHub profiles
 
-Acceptance Criteria:
-
+## Features ##
+This application has the following features:
+This is a Node.js command-line application that takes in information about employees on a software engineering team, then generates a HTML webpage that displays summaries for each person. 
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for my team members and their information
 THEN an HTML file is generated that displays a nicely formatted team roster based on user input
@@ -44,6 +37,13 @@ WHEN I select the intern option
 THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu
 WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
+
+## Installation
+Because this application wasn't deployed, here's a link to the walkthrough video that demonstrates its functionality and all of the tests passing: https://watch.screencastify.com/v/MXXwXvx42viaQOumLWzE
+
+
+## Usage
+![team-profile-generator](https://user-images.githubusercontent.com/87610840/151715724-ae41ad58-2452-480d-97ea-ee7b3e1b4fc0.gif)
 
 ![Team_Project_Generator npm test](https://user-images.githubusercontent.com/87610840/135786650-4849ca3b-9ef3-4709-9d23-8a631bfc37f9.JPG)
 ![Team_Project_Generator Team Webpage](https://user-images.githubusercontent.com/87610840/135786652-a5a245b5-770f-42dd-8ebc-ade19c2d4e6f.JPG)
